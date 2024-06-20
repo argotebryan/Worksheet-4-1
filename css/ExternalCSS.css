@@ -1,0 +1,90 @@
+body{
+	background-image: url(../image/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+    border: 2px solid white;
+    font-family: Arial;
+    color: white;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    overflow: hidden;
+}
+.Header{
+	text-align: center;
+}
+.Header h2 a{
+	margin: 0;
+	padding: 10px 16px 10px 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+.Header h2 a:hover{
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	border-radius: 8px;
+}
+
+.Header h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+.desc{
+	text-align: left;
+}
+
+.educ{
+	margin: 0;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+}
+thead, tbody {
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+th, td {
+    padding: 8px;
+    border: 2px solid black;
+}
+.tabIn{
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+}
+
+ul li{
+	list-style-type: none;
+	text-align: left;
+}
